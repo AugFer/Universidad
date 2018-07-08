@@ -1,0 +1,2 @@
+Primer contacto con el leguaje Android.
+Desarrollo de una app y un servidor web para las elecciones de concejeros de la universidad.
