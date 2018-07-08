@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="Panel1" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="Panel1" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="Panel1">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="Titulo" min="-2" pref="179" max="-2" attributes="0"/>
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="eliminarLista" alignment="0" max="32767" attributes="0"/>
+                              <Component id="buscarElemento" alignment="0" max="32767" attributes="0"/>
+                              <Component id="buscarPorPosicion" alignment="0" max="32767" attributes="0"/>
+                              <Component id="remover" alignment="0" max="32767" attributes="0"/>
+                              <Component id="añadirAlFinal" alignment="0" max="32767" attributes="0"/>
+                              <Component id="crearLista" pref="144" max="32767" attributes="0"/>
+                              <Component id="modificar" alignment="0" max="32767" attributes="0"/>
+                              <Component id="añadirEnPosicion" alignment="0" max="32767" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="descripcion1" min="-2" max="-2" attributes="0"/>
+                              <Component id="descripcion4" min="-2" max="-2" attributes="0"/>
+                              <Component id="descripcion5" min="-2" max="-2" attributes="0"/>
+                              <Component id="descripcion6" min="-2" max="-2" attributes="0"/>
+                              <Component id="descripcion7" min="-2" max="-2" attributes="0"/>
+                              <Component id="descripcion8" min="-2" max="-2" attributes="0"/>
+                              <Component id="descripcion3" min="-2" max="-2" attributes="0"/>
+                              <Component id="descripcion2" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
+                  <Component id="Titulo" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="crearLista" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="descripcion1" alignment="3" min="-2" pref="14" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="descripcion2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="añadirAlFinal" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="descripcion3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="añadirEnPosicion" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="descripcion4" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="modificar" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="descripcion5" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="remover" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="descripcion6" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="buscarPorPosicion" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="buscarElemento" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="descripcion7" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="eliminarLista" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="descripcion8" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JButton" name="crearLista">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Crear lista indexada"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="crearListaActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="a&#xf1;adirAlFinal">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="A&#xf1;adir elemento"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="a&#xf1;adirAlFinalActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="a&#xf1;adirEnPosicion">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="A&#xf1;adir elemento"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="a&#xf1;adirEnPosicionActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="modificar">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Modificar elemento"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="modificarActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="remover">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Remover elemento"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="removerActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="buscarPorPosicion">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Buscar elemento"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="buscarPorPosicionActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="buscarElemento">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Buscar posicion"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="buscarElementoActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="eliminarLista">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Eliminar lista"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="eliminarListaActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="Titulo">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="18" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Menu de operaciones"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="descripcion1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Inicializa una lista vacia"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="descripcion2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="A&#xf1;ade un nuevo elemento al final de la lista"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="descripcion3">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="A&#xf1;ade un nuevo elemento en la posicion especificada (Elemento, Posici&#xf3;n)"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="descripcion4">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Modifica el elemento de la posicion especificada"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="descripcion5">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Remueve el elemento de la posicion especificada"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="descripcion6">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Busca en la posicion especificada y devuelve el elemento que le corresponde"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="descripcion7">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Busca el elemento especificado y devuelve su posicion"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="descripcion8">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Elimina una lista"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>

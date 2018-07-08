@@ -1,0 +1,25 @@
+*{
+   margin: 0px;
+   padding: 0px;
+}
+table{
+    margin: auto;
+    margin-top: 25px;
+    border-collapse: collapse;
+    border: #444 1px solid;
+    text-align: center;
+}
+table>thead, table>tfoot{
+    background-color: lightblue;
+    font-weight: bold;
+}
+table>tbody{
+    background-color: white;
+}
+td{
+    border: #444 1px solid;
+    padding: 2px 12px 2px 12px;
+}
+span{
+    font-style: italic;
+}

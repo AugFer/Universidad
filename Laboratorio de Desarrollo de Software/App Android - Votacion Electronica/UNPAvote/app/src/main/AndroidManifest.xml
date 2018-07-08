@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mixsoft.unpavote">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        >
+        <activity android:name=".Login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MenuPrincipal"
+            android:screenOrientation="portrait"
+            >
+        </activity>
+        <activity android:name=".PassRecovery"
+            android:screenOrientation="portrait"
+            >
+        </activity>
+        <activity android:name=".Usuario"
+            android:screenOrientation="portrait"
+            >
+        </activity>
+        <activity android:name=".Contrasena"
+            android:screenOrientation="portrait"
+            >
+        </activity>
+        <activity android:name=".Pin"
+            android:screenOrientation="portrait"
+            >
+        </activity>
+        <activity android:name=".Votacion"
+            android:screenOrientation="portrait"
+            >
+        </activity>
+        <activity android:name=".Lista"
+            android:screenOrientation="portrait"
+            >
+        </activity>
+        <activity android:name=".Ayuda"
+            android:screenOrientation="portrait"
+            >
+        </activity>
+        <activity android:name=".Resultados"
+            android:screenOrientation="portrait"
+            >
+        </activity>
+        <activity android:name=".Resultados_plazas"
+            android:screenOrientation="portrait"
+            >
+        </activity>
+        <activity android:name=".Resultados_grafico"
+            android:screenOrientation="portrait"
+            >
+        </activity>
+        <activity android:name=".Comprobante"
+            android:screenOrientation="portrait"
+            >
+        </activity>
+        <activity android:name=".Acerca_de"
+            android:screenOrientation="portrait"
+            >
+        </activity>
+    </application>
+</manifest>

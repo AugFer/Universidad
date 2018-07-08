@@ -1,0 +1,61 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    color: #444;
+}
+h3{
+    margin-bottom: 5px;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+td{
+    padding: 4px 2px 4px 2px;
+}
+
+fieldset{
+    padding: 5px 50px 30px 15px;
+}
+
+input{
+    width: 70px;
+    border: 1px solid rgb(160,185,205);
+    padding: 3px 4px;
+    text-align: center;
+}
+
+button{
+    padding: 2px 10px 2px 10px;
+    width: 100%;
+}
+
+div#contenedor{
+    margin: auto;
+    width: fit-content;
+}
+
+div#contenedorGenerador{
+    margin: auto;
+    margin-top: 20px;
+    width: fit-content;
+    text-align: left;
+}
+
+div#contenedorMatrizA, div#contenedorMatrizB, div#contenedorMatrizProducto{
+    margin-top: 20px;
+    margin-right: 30px;
+    display: inline-block;
+    text-align: center;
+}
+
+div#contenedorMatrizA input, div#contenedorMatrizB input, div#contenedorMatrizProducto input{
+    width: 25px;
+    border: 1px solid rgb(160,185,205);
+    padding: 3px 4px;
+}
+
+div#contenedorMatrizProducto input{
+    pointer-events: none;
+}

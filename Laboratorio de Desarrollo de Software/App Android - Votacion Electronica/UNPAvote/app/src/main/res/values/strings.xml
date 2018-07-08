@@ -1,0 +1,156 @@
+<resources>
+    <string name="app_name">UNPAvote</string>
+    <string name="app_ver">"Versión: "</string>
+
+    <!-- Ayuda -->
+    <string name="ayu_toolbar_titulo">Preguntas frecuentes</string>
+    <string name="ayu_preg_1">Pregunta 1</string>
+    <string name="ayu_resp_1">Respuesta 1</string>
+    <string name="ayu_preg_2">Pregunta 2</string>
+    <string name="ayu_resp_2">Respuesta 2</string>
+    <string name="ayu_preg_3">Pregunta 3</string>
+    <string name="ayu_resp_3">Respuesta 3</string>
+    <string name="ayu_preg_4">Pregunta 4</string>
+    <string name="ayu_resp_4">Respuesta 4</string>
+    <string name="ayu_preg_5">Pregunta 5</string>
+    <string name="ayu_resp_5">Respuesta 5</string>
+    <string name="ayu_preg_6">Pregunta 6</string>
+    <string name="ayu_resp_6">Respuesta 6</string>
+    <string name="ayu_preg_7">Pregunta 7</string>
+    <string name="ayu_resp_7">Respuesta 7</string>
+    <string name="ayu_preg_8">Pregunta 8</string>
+    <string name="ayu_resp_8">Respuesta 8</string>
+    <string name="ayu_preg_9">Pregunta 9</string>
+    <string name="ayu_resp_9">Respuesta 9</string>
+    <string name="ayu_preg_10">Pregunta 10</string>
+    <string name="ayu_resp_10">Respuesta 10</string>
+    <string name="ayu_preg_11">Pregunta 11</string>
+    <string name="ayu_resp_11">Respuesta 11</string>
+
+    !-- Acerca de -->
+    <string name="ace_toolbar_titulo">Acerca de</string>
+    <string name="ace_txt_licencia">© 2016-2017 Silmeria Inc.\nAll rights reserved</string>
+
+
+    <!-- Comprobante -->
+    <string name="com_toolbar_titulo">Comprobante</string>
+    <string name="com_txt_titulo">Comprobante de votación</string>
+    <string name="com_txt_legajo">Legajo:</string>
+    <string name="com_txt_dni">DNI:</string>
+    <string name="com_txt_nombre">Nombre:</string>
+    <string name="com_txt_apellido">Apellido:</string>
+    <string name="com_txt_claustro">Claustro:</string>
+    <string name="com_txt_cargo_carrera">Cargo/Carrera:</string>
+    <string name="com_txt_transaccion">Nro. de transacción:</string>
+    <string name="com_btn">Reenviar comprobante</string>
+    <string name="com_txt_descripcion">Si has perdido el eMail original, pulsa el botón para recibir nuevamente el comprobante en tu correo electrónico.</string>
+
+    <!-- Contraseña -->
+    <string name="con_toolbar_titulo">Contraseña</string>
+    <string name="con_txt_titulo">Actualización de contraseña</string>
+    <string name="con_txt_descripcion">Completa los campos correspondientes y pulsa el botón para modificar tu contraseña.</string>
+    <string name="con_hint_actual">Actual</string>
+    <string name="con_hint_nueva">Nueva</string>
+    <string name="con_hint_repetir">Repetir nueva</string>
+    <string name="con_btn_actualizar">Cambiar contraseña</string>
+
+    <!-- Digitos aceptados en editText -->
+    <string name="digitos_alfanumericos_guiones">abcdefghijklmnopqrstuvwxyz1234567890ABCDEFGH‌​IJKLMNOPQRSTUVWXYZ-_</string>
+    <string name="digitos_legajo">abcdefghijklmnopqrstuvwxyz1234567890ABCDEFGH‌​IJKLMNOPQRSTUVWXYZ-_/</string>
+
+    <!-- Lista -->
+    <string name="lis_toolbar_titulo">Detalles de lista</string>
+    <string name="lis_txt_nom_lista">Nombre de la lista</string>
+    <string name="lis_txt_tit_cand">Candidatos</string>
+    <string name="lis_txt_candidato">Nombre del candidato</string>
+    <string name="lis_txt_cargo">Cargo al que se postula</string>
+    <string name="lis_btn_votar">Votar</string>
+    <string name="lis_img">Logo de la lista</string>
+
+    <!-- Login -->
+    <string name="login_txt_titulo">Inicio</string>
+    <string name="login_hint_ele_legajo">Legajo</string>
+    <string name="login_hint_ele_pass">Contraseña</string>
+    <string name="login_btn_login">Iniciar sesión</string>
+    <string name="login_btn_forg_pass">¿Olvidó su contraseña?</string>
+    <string name="login_img_unpa">Universidad Nacional de la Patagonia Austral</string>
+
+    <!-- Menu principal -->
+    <string name="menu_toolbar_titulo">Menu principal</string>
+    <string name="menu_btn_usuario">Usuario</string>
+    <string name="menu_btn_comprobante">Comprobante</string>
+    <string name="menu_btn_votacion">Votación</string>
+    <string name="menu_btn_resultados">Resultados</string>
+
+    <!-- Pass recovery -->
+    <string name="passR_toolbar_titulo">Recuperación</string>
+    <string name="passR_txt_titulo">¿Olvidó su contraseña?</string>
+    <string name="passR_txt_descripcion">Escriba el email asociado a su cuenta y le enviaremos una nueva contraseña.</string>
+    <string name="passR_hint_correo">Correo electrónico</string>
+    <string name="passR_btn_recuperar">Recuperar contraseña</string>
+    <string name="passR_txt_pie">Recomendamos que cambie la contraseña luego de acceder a la aplicación.</string>
+
+    <!-- PIN -->
+    <string name="pin_toolbar_titulo">PIN</string>
+    <string name="pin_txt_titulo">PIN de seguridad</string>
+    <string name="pin_txt_descripcion">Pulsa el botón Generar PIN para recibir un código único en tu correo electrónico que te será necesario para emitir tu voto.</string>
+    <string name="pin_txt_descripcion_generado">Tu PIN es: Anótalo o recuérdalo, ya que al salir de esta pantalla se ocultará y solo podrás volver a ver tu PIN en el correo electrónico que te hemos enviado.</string>
+    <string name="pin_txt_descripcion_reenviar">Ya has generado tu PIN de seguridad. Si no lo recuerdas y has perdido el correo electrónico original, pulsa el botón Renviar PIN para recibir tu PIN nuevamente por correo electrónico.</string>
+    <string name="pin_btn_generar">Generar PIN</string>
+    <string name="pin_btn_reenviar">Reenviar PIN</string>
+
+    <!-- Resultados -->
+    <string name="res_toolbar_titulo">Resultados</string>
+    <string name="res_descripcion">Descripción</string>
+    <string name="res_btn_profesores">Profesores</string>
+    <string name="res_btn_auxiliares">Auxiliares</string>
+    <string name="res_btn_cuerpoAyA">Administración y Apoyo</string>
+    <string name="res_btn_alumnos">Alumnos</string>
+    <string name="res_btn_resultados_actualizar">Actualizar</string>
+    <string name="res_btn_resultados_plazas">Resultado de plazas</string>
+
+    <!-- Resultados_plazas -->
+    <string name="res_plazas_toolbar_titulo">Resultados</string>
+    <string name="res_plazas_titulo">Distribución de plazas</string>
+
+    <!-- URLs -->
+    <string name="url_servidor">http://192.168.1.5/UNPAvote_WS/</string>
+    <!--<string name="url_servidor">http://192.168.25.113/UNPAvote_WS/</string>-->
+    <string name="url_servidor_logo">logos/</string>
+    <string name="url_login">login.php</string>
+    <string name="url_cont">actualizar_pass.php</string>
+    <string name="url_passR">email_passRec.php</string>
+    <string name="url_vot">obtener_acto_eleccionario.php</string>
+    <string name="url_vot_votar">emitir_voto.php</string>
+    <string name="url_usu_pin">verificar_pin.php</string>
+    <string name="url_pin_generar">generar_pin.php</string>
+    <string name="url_pin_reenviar">reenviar_pin.php</string>
+    <string name="url_res">obtener_resultados.php</string>
+    <string name="url_comp">obtener_comprobante.php</string>
+    <string name="url_comp_reenviar">reenviar_comprobante.php</string>
+
+    <!-- Usuario -->
+    <string name="usu_toolbar_titulo">Usuario</string>
+    <string name="usu_txt_titulo">Información</string>
+    <string name="usu_txt_nombre">Nombre:</string>
+    <string name="usu_txt_apellido">Apellido:</string>
+    <string name="usu_txt_legajo">Legajo:</string>
+    <string name="usu_txt_claustro">Claustro:</string>
+    <string name="usu_txt_cargo_carrera">Cargo/Carrera:</string>
+    <string name="usu_txt_correo">Email:</string>
+    <string name="usu_btn_contraseña">Cambiar contraseña</string>
+    <string name="usu_btn_pin">PIN de seguridad</string>
+
+    <!-- Votacion -->
+    <string name="vot_toolbar_titulo">Votación</string>
+    <string name="vot_txt_titulo">Título</string>
+    <string name="vot_txt_fecha">Fecha y hora de cierre</string>
+    <string name="vot_txt_lista">Nombre de lista</string>
+    <string name="vot_txt_blanco">Blanco</string>
+    <string name="vot_txt_nulo">Nulo</string>
+
+    <!-- Wut? cosas de android -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+</resources>

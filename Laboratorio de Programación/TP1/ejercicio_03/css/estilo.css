@@ -1,0 +1,72 @@
+*{
+   margin: 0px;
+   padding: 0px;
+   font-family: arial;
+}
+div#contenedor{
+    margin-top: 30px;
+    margin-left: 30px;
+    padding: 5px;
+    border: rgb(28,75,122) solid thin;
+    width: fit-content;
+    height: fit-content;
+}
+div#encabezado{
+    padding: 10px;
+    background-color: rgb(28,75,122);
+    color:white;
+}
+div#cuerpo{
+    margin: auto;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+span, label#advertencia{
+    color: red;
+    font-weight: lighter;
+    font-family: sans-serif;
+}
+label{
+    display: inline-block;
+    width: 70px;
+    text-align: left;
+    font-weight: bold;
+    color: #555;
+    font-size: 15px;
+}
+label#advertencia{
+    width: 350px;
+}
+input#nombre, input#eMail{
+    margin-right: 15px;
+}
+input, textarea{
+    width: 250px;
+    box-sizing: border-box;
+    margin-left: 25px;
+    font-size: 14px;
+}
+textarea{
+    vertical-align: middle;
+    min-height: 75px;
+    min-width: 614px;
+    max-width: 614px;
+}
+input[type="text"], textarea{
+    margin-top: 15px;
+    margin-right: 0px;
+    box-sizing: border-box;
+    border: 2px solid rgb(215,224,233);
+    color: #555;
+    outline: none;
+    padding: 7px 8px;
+}
+button{
+    margin: 10px;
+    margin-left: 95px;
+    margin-right: 135px;
+    color: #555;
+    padding: 3px;
+}
+
+

@@ -1,0 +1,35 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    color: #444;
+}
+
+div#contenedor{
+    margin: auto;
+    margin-top: 25px;
+    padding: 10px 15px 10px 15px;
+    width: fit-content;
+}
+
+fieldset{
+    padding: 5px 25px 30px 25px;
+}
+fieldset div{
+    text-align:center;
+    margin: 5px;
+}
+
+label{
+    display: inline-block;
+    width: 80px;
+}
+
+input{
+    width: 200px;
+    border: 1px solid rgb(160,185,205);
+    padding: 7px 8px;
+}
+
+button{
+    padding: 3px 10px 3px 10px;
+}

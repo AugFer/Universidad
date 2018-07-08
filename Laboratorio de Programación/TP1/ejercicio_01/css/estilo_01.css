@@ -1,0 +1,10 @@
+*{font-family: arial;}
+
+h1{color: green;}
+
+ol{list-style-type: decimal;}
+.bold{font-weight: bold;}
+.noBold{font-weight: normal;}
+ol ol{list-style-type: lower-latin;}
+ul{list-style-type: circle;}
+ul ul {list-style-type: disc;}

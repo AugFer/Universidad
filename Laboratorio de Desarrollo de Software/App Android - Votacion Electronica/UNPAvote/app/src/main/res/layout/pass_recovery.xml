@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mixsoft.unpavote.PassRecovery"
+    android:orientation="vertical"
+    tools:ignore="MissingPrefix"
+    >
+    <include layout="@layout/toolbar"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:baselineAligned="false"
+        android:gravity="center|top"
+        android:layout_gravity="center"
+        >
+        <TextView
+            android:id="@+id/tv_titulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/passR_txt_titulo"
+            android:textSize="@dimen/sp_30"
+            android:textAlignment="center"
+            android:layout_marginTop="@dimen/dp_15"
+            fontPath="fonts/Existence.ttf"
+            />
+        <TextView
+            android:id="@+id/tv_descripcion"
+            android:text="@string/passR_txt_descripcion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/sp_20"
+            android:textAlignment="center"
+            android:padding="@dimen/dp_15"
+            fontPath="fonts/Existence.ttf"
+            />
+        <EditText
+            android:id="@+id/et_correo_elec"
+            android:inputType="text"
+            android:hint="@string/passR_hint_correo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dp_10"
+            android:textAlignment="center"
+            fontPath="fonts/Existence.ttf"
+            />
+        <Button
+            android:id="@+id/btn_recuperar_pass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/passR_btn_recuperar"
+            android:layout_marginTop="@dimen/dp_15"
+            fontPath="fonts/Existence.ttf"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:baselineAligned="false"
+        android:gravity="bottom"
+        android:padding="@dimen/dp_25"
+        >
+        <TextView
+            android:id="@+id/tv_pie"
+            android:text="@string/passR_txt_pie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/sp_15"
+            android:textAlignment="center"
+            />
+    </LinearLayout>
+
+</LinearLayout>
+

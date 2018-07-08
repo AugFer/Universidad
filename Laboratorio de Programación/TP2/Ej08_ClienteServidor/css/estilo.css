@@ -1,0 +1,97 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    color: #444;
+    font-family: arial;
+}
+h2{
+    text-align: center;
+}
+h3{
+    color: green;
+    text-align: center;
+    text-shadow: 2px 2px 10px #444;
+    margin-bottom: 20px;
+}
+
+
+div#contenedor{
+    padding: 15px 0px 15px 30px;
+}
+div#cliente, div#servidor{
+    float: left;
+}
+
+
+/***** Cliente *****/
+div#cliente{
+    width: 25%;
+    padding-right: 20px;
+
+}
+div#nuevaNoticia{
+    padding: 10px 10px 20px 10px;
+    border-top: #444 thin solid;
+    border-bottom: #444 thin solid;
+}
+div#log div{
+    margin-top: 10px;
+    text-align: left;
+}
+div#log p{
+    color: crimson;
+    font-weight: bold;
+    font-size: 10px;
+}
+
+/***** Servidor *****/
+div#servidor{
+    width: 72%;
+    min-height: 630px;
+    border-left: #444 thin solid;
+}
+div#ultimasNoticias{
+    margin: 0px 100px 10px 100px;
+    padding: 20px 220px 20px 220px;
+    border-top: #444 thin solid;
+    border-bottom: #444 thin solid;
+}
+div#publicaciones > div{
+    padding: 0px 20px 10px 20px;
+    margin: 0px 50px 10px 50px;
+    border-bottom: #444 thin solid;
+}
+div#publicaciones > div > h3{
+    color: cadetblue;
+    text-align: center;
+    text-shadow: none;
+    margin-bottom: 20px;
+}
+div#publicaciones > div > p{
+    text-align: left;
+    margin-bottom: 10px;
+}
+div#publicaciones > div > a{
+    color: blue;
+    display: block;
+    text-align: right;
+}
+
+
+input, textarea{
+    border: 1px solid rgb(160,185,205);
+    padding: 3px 4px;
+}
+input{
+    margin-bottom: 15px;
+    width: 250px;
+}
+textarea{
+    background-color: aliceblue;
+    min-width: 300px;
+    max-width: 300px;
+    min-height: 200px;
+}
+button{
+    padding: 2px 10px 2px 10px;
+}

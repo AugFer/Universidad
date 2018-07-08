@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top|center_vertical"
+    tools:context="com.mixsoft.unpavote.Votacion"
+    android:baselineAligned="false"
+    tools:ignore="MissingPrefix"
+    android:orientation="vertical"
+    >
+    <include layout="@layout/toolbar"/>
+
+    <LinearLayout
+        android:id="@+id/layout_lista"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:baselineAligned="false"
+        android:gravity="center|top"
+        android:layout_gravity="center"
+        >
+        <TextView
+            android:id="@+id/tv_nom_lista"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lis_txt_nom_lista"
+            android:textSize="@dimen/sp_35"
+            android:textAlignment="center"
+            android:layout_marginTop="@dimen/dp_15"
+            fontPath="fonts/Existence.ttf"
+            />
+        <ImageView
+            android:id="@+id/img_lista"
+            android:layout_width="match_parent"
+            android:layout_height="150sp"
+            app:srcCompat="@drawable/no_img"
+            android:contentDescription="@string/lis_img" />
+        <TextView
+            android:id="@+id/lis_tit_cand"
+            android:text="@string/lis_txt_tit_cand"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/sp_25"
+            android:textAlignment="center"
+            android:layout_marginTop="@dimen/dp_15"
+            android:layout_marginBottom="@dimen/dp_15"
+            fontPath="fonts/Existence.ttf"
+            />
+    </LinearLayout>
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:fillViewport="true"
+        android:layout_weight="1"
+        >
+        <TableLayout
+            android:id="@+id/tabla_scroll"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:stretchColumns="1"
+            >
+
+        </TableLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/dp_10"
+        android:orientation="vertical"
+        android:baselineAligned="false"
+        android:gravity="bottom"
+        >
+        <Button
+            android:id="@+id/btn_votar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lis_btn_votar"
+            android:textColor="@color/blanco"
+            android:textSize="@dimen/sp_25"
+            android:layout_gravity="center_horizontal"
+            android:paddingTop="@dimen/dp_7"
+            android:paddingBottom="@dimen/dp_7"
+            android:paddingStart="@dimen/dp_15"
+            android:paddingEnd="@dimen/dp_15"
+            android:drawableStart="@drawable/voto_blanco"
+            android:backgroundTint="@color/grisazulado"
+            fontPath="fonts/Existence.ttf"
+            />
+    </LinearLayout>
+</LinearLayout>

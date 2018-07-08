@@ -1,0 +1,45 @@
+@page{
+    margin: 0cm;
+}
+body{
+    margin: 2cm 2cm 2cm 2cm;
+}
+*{
+    font-family: sans-serif;
+}
+h2{
+    text-align: center;
+    color: #195f91;
+}
+table{
+    width: auto;
+    margin: auto;
+    font-size: 14px;
+    text-align: center;
+    
+}
+table, td, th{
+    border-collapse: collapse;
+    border: 1px #195f91 solid;
+}
+th, td{
+    padding: 15px;
+}
+th{
+    padding: 5px 15px 5px 15px;
+    font-size: 14px;
+    background-color: #195f91;
+    color: white;
+    font-weight: bolder;
+    
+}
+.th-logo{
+    padding: 5px 15px 5px 15px;
+    background-color: white;
+}
+.th-nombre{
+    font-size: 24px;
+}
+.th-titulo{
+    font-size: 16px;
+}

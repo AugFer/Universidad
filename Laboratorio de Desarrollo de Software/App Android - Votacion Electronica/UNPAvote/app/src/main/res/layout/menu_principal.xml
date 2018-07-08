@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="top|center_vertical"
+    tools:context="com.mixsoft.unpavote.MenuPrincipal"
+    android:weightSum="4"
+    android:baselineAligned="false"
+    >
+    <include layout="@layout/toolbar"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:padding="@dimen/dp_10"
+        >
+        <Button
+            android:id="@+id/btn_usuario"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/menu_btn_usuario"
+            android:background="@color/naranja_claro"
+            android:textColor="@color/blanco"
+            android:textSize="@dimen/sp_35"
+            style="?android:attr/borderlessButtonStyle"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingLeft="@dimen/dp_10"
+        android:paddingRight="@dimen/dp_10"
+        >
+        <Button
+            android:id="@+id/btn_votacion"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/menu_btn_votacion"
+            android:background="@color/rojo_claro"
+            android:textColor="@color/blanco"
+            android:textSize="@dimen/sp_35"
+            style="?android:attr/borderlessButtonStyle"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingLeft="@dimen/dp_10"
+        android:paddingRight="@dimen/dp_10"
+        android:paddingTop="@dimen/dp_10"
+        >
+        <Button
+            android:id="@+id/btn_comprobante"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/menu_btn_comprobante"
+            android:background="@color/rosado_claro"
+            android:textColor="@color/blanco"
+            android:textSize="@dimen/sp_35"
+            style="?android:attr/borderlessButtonStyle"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:padding="@dimen/dp_10"
+        >
+        <Button
+            android:id="@+id/btn_resultados"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/menu_btn_resultados"
+            android:background="@color/lila_claro"
+            android:textColor="@color/blanco"
+            android:textSize="@dimen/sp_35"
+            style="?android:attr/borderlessButtonStyle"
+            />
+    </LinearLayout>
+
+</LinearLayout>

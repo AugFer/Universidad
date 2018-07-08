@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="@dimen/dp_10"
+    android:paddingEnd="@dimen/dp_10"
+    android:paddingTop="@dimen/dp_5"
+    android:paddingBottom="@dimen/dp_5"
+    tools:ignore="MissingPrefix"
+    >
+    <ImageView
+        android:background="@color/verde_medio"
+        android:id="@+id/logo_lista"
+        android:layout_width="@dimen/sp_75"
+        android:layout_height="@dimen/sp_75"
+        android:src="@drawable/no_img"
+        android:contentDescription="@string/lis_img"
+        android:padding="@dimen/dp_7"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/vot_txt_lista"
+        android:background="@color/verde_medio"
+        android:textColor="@color/blanco"
+        android:textSize="@dimen/sp_30"
+        android:gravity="center"
+        style="?android:attr/borderlessButtonStyle"
+        fontPath="fonts/Existence.ttf"
+        />
+</TableRow>

@@ -1,0 +1,5 @@
+Propiedades de las imagenes
+
+- Tipo de archivo: JPEG (.jpg)
+- Dimensiones: 200x200px (cuestiones de performance, lo ideal es que sea "chica" y "cuadrada")
+- Nombre: igual al nombre de la lista en la BD (lis_nombre)

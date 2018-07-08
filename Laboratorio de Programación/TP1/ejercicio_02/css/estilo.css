@@ -1,0 +1,67 @@
+*{
+   margin: 0px;
+   padding: 0px;
+}
+h1,h2{
+   color: #AA0050;
+}
+h1{
+    font-size: 29px;
+}
+h2{
+    font-size: 22px;
+}
+ol{
+   font-family: arial;
+}
+li{
+   color: #AA0050;
+}
+a{
+   text-decoration: none;
+   margin-left: 5px;
+   margin-right: 5px;
+}
+p{
+   margin-top: 15px;
+   margin-bottom: 15px;
+}
+hr{
+   margin-top: 10px;
+}
+div#menuInicio{
+    margin-top: 10px;
+    margin-left: 15px;
+}
+div#menuPrincipal{
+    margin-top: 20px;
+    margin-left: 65px;
+    padding: 25px;
+    border: blue solid thin;
+    width: fit-content;
+    height: fit-content;
+}
+div#menuPrincipal ol{
+    margin: auto;
+    margin-left: 40px;
+}
+div#menuPrincipal ol li{
+    margin-top: 15px;
+}
+div#contenedor{
+   margin: auto;
+   margin-top: 25px;
+   width: 600px;
+}
+div#enlaceWiki{
+    float: left;
+}
+div#enlaceWiki a{
+    text-decoration: underline;
+}
+div#menuNavegacion{
+    float: right;
+    margin-right: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}

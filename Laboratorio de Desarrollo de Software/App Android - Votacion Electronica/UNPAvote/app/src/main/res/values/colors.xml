@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- General -->
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#f44336</color>
+
+    <!-- Colores -->
+    <color name="negro_mate">#424242</color>
+    <color name="azul_link">#1976d2</color>
+
+    <color name="purpura">#9575CD</color>
+    <color name="naranja_claro">#ffab40</color>
+    <color name="rojo_claro">#ff8a80</color>
+    <color name="rosado_claro">#ff80ab</color>
+    <color name="lila_claro">#ea80fc</color>
+    <color name="azul_claro">#7986CB</color>
+    <color name="celeste_claro">#81d4fa</color>
+    <color name="turquesa_medio">#80cbc4</color>
+    <color name="turquesa_oscuro">#009688</color>
+    <color name="verde_medio">#aed581</color>
+    <color name="gris_claro">#e0e0e0</color>
+    <color name="gris_oscuro">#424242</color>
+    <color name="blanco">#ffffff</color>
+    <color name="grisazulado">#B0BEC5</color>
+
+    <!-- Paleta purpura -->
+    <color name="purpura1">#BA68C8</color>
+    <color name="purpura2">#AB47BC</color>
+    <color name="purpura3">#9C27B0</color>
+    <color name="purpura4">#8E24AA</color>
+    <color name="purpura5">#7B1FA2</color>
+    <color name="purpura6">#6A1B9A</color>
+    <color name="purpura7">#62168f</color>
+    <color name="purpura8">#571181</color>
+    <color name="purpura9">#4c0c73</color>
+    <color name="purpura10">#420866</color>
+    <color name="purpura11">#360454</color>
+
+    <!-- Array colores material -->
+    <array name="colores_material">
+        <item name="red_300" type="color">#e57373</item>
+        <item name="deep_orange_300" type="color">#FF8A65</item>
+        <item name="light_green_300" type="color">#AED581</item>
+        <item name="purple_300" type="color">#BA68C8</item>
+        <item name="light_blue_300" type="color">#4FC3F7</item>
+        <item name="pink_300" type="color">#F06292</item>
+        <item name="teal_300" type="color">#4DB6AC</item>
+        <item name="lime_300" type="color">#DCE775</item>
+        <item name="indigo_300" type="color">#7986CB</item>
+        <item name="deep_purple_300" type="color">#9575CD</item>
+        <item name="brown_300" type="color">#A1887F</item>
+    </array>
+
+    <array name="blanco_negro">
+        <item name="grey_400" type="color">#BDBDBD</item>
+        <item name="grey_800" type="color">#616161</item>
+    </array>
+
+</resources>

@@ -1,0 +1,38 @@
+@page{
+    margin: 0cm;
+}
+body{
+    margin: 0cm 2cm 0cm 2cm;
+}
+*{
+    font-family: sans-serif;
+}
+.thumbnail{
+    padding: 20px;
+}
+table{
+    width: 100%;
+    font-size: 14px;
+}
+tr{
+    width: 100%;
+}
+td{
+    width: 100%;
+}
+td.imagen{
+    white-space: nowrap;
+    width: 1%;
+}
+td.info{
+    padding-left: 20px;
+}
+img{
+    max-width: 200px;
+}
+h4 small{
+    font-size: 14px;
+}
+h1{
+    text-align: center;
+}
